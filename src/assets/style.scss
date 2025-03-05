@@ -1,11 +1,14 @@
 @import "styles/header";
 @import "styles/footer";
+@import "styles/popover";
+@import "styles/modal";
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
 
 :root {
     --primary-light: #e1f4fd;
     --primary-dark: #113154;
-    --secondary-dark: #5a4678;
+    --primary: #49a4e7;
+    --secondary-dark: #0f506b;
 }
 
 * {
@@ -15,4 +18,61 @@
 .header,
 .footer {
     background-color: white;
+}
+
+.card-main {
+    border: 1px solid var(--primary-dark);
+    border-radius: 8px;
+
+    .card-body {
+        padding: 24px;
+    }
+}
+
+#nav-buttons {
+    margin: 32px 0;
+}
+
+.btn {
+    border-color: var(--primary-dark) !important;
+    font-weight: 700;
+}
+
+.btn-primary {
+    background-color: var(--primary-dark);
+}
+
+.nav{
+    justify-content: space-between;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    color: var(--primary-dark);
+
+    .number {
+        border: 1px solid var(--primary-dark);
+        color: var(--primary-dark);
+        font-weight: 700;
+        display: flex;
+        width: 32px;
+        height: 32px;
+        padding: 8px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: -500px;
+        border-radius: 128px;
+    }
+
+    &.active {
+        .number {
+            border: 1px solid var(--primary);
+            background: var(--primary);
+            color: white;
+        }
+    }
 }

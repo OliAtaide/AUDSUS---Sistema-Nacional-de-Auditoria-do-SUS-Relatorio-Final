@@ -10,4 +10,16 @@
 .subheader {
     background-color: var(--primary-light);
     padding: 16px 0;
+
+    strong{
+        color: var(--primary-dark);
+    }
+}
+
+h1{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--primary-dark);
+    margin: 16px 0;
 }

@@ -1,0 +1,33 @@
+.popover {
+    min-width: 100%;
+    z-index: 0;
+    font-size: 16px !important;
+    position: relative;
+}
+
+.popover-arrow {
+    position: absolute;
+}
+
+.popover-left,
+.popover-right {
+    .popover-arrow {
+        top: calc(50% - 0.5rem);
+    }
+}
+
+.popover-top,
+.popover-bottom {
+    .popover-arrow {
+        left: calc(50% - 0.5em);
+    }
+}
+
+.row-left {
+    flex-direction: row-reverse;
+
+    .col-3 img {
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+    }
+}
