@@ -3,6 +3,7 @@ import NavButtons from "@/components/NavButtons.vue";
 import NotFound from "@/components/NotFound.vue";
 import SlideFive from "@/slides/SlideFive.vue";
 import SlideFour from "@/slides/SlideFour.vue";
+import SlideLast from "@/slides/SlideLast.vue";
 import SlideOne from "@/slides/SlideOne.vue";
 import SlideSeven from "@/slides/SlideSeven.vue";
 import SlideSix from "@/slides/SlideSix.vue";
@@ -20,7 +21,7 @@ const comp = ref(NotFound);
 const next = ref(false);
 const prev = ref(false);
 
-const slides = [SlideOne, SlideTwo, SlideThree, SlideFour, SlideFive, SlideSix, SlideSeven];
+const slides = [SlideOne, SlideTwo, SlideThree, SlideFour, SlideFive, SlideSix, SlideSeven, SlideLast];
 
 const titles = [
   "Dados Básicos",
@@ -71,10 +72,10 @@ watch(
   <div class="card card-main">
     <div class="card-body">
       <ul class="nav">
-        <li class="nav-item" v-for="i in slides.length" :key="i">
-          <a class="nav-link" :class="i <= $route.params.id ? 'active' : ''" aria-current="page" :href=i>
+        <li class="nav-item" v-for="i in slides.length - 1" :key="i">
+          <a class="nav-link" :class="i < $route.params.id ? 'active' : ( i == $route.params.id ? 'current' : '')" aria-current="page" :href=i>
             <div class="number">
-              <i v-if="i <= $route.params.id" class="bi bi-check"></i>
+              <i v-if="i < $route.params.id" class="bi bi-check"></i>
               <span v-else>
                 {{ i }}
               </span>

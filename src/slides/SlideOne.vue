@@ -6,7 +6,7 @@
     auditoria; e identificações dos dirigentes, com seu respectivo cargo e
     período de exercício.
     <template v-slot:extra>
-        <img src="@/assets/pages/1_dados_basicos.png" alt="">
+        <img  class="img-fluid" src="@/assets/pages/1.png" alt="">
     </template>
   </GirlA>
 </template>

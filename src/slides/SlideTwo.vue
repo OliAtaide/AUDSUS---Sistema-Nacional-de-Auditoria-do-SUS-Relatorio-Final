@@ -5,7 +5,7 @@
     auditoria; informações sobre a demanda e o demandante; o objetivo da
     atividade e as questões de auditoria formuladas.
     <template v-slot:extra>
-      <img src="@/assets/pages/2_introducao.png" alt="" />
+      <img class="img-fluid" src="@/assets/pages/2.png" alt="" />
     </template>
   </GirlA>
 </template>

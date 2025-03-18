@@ -75,4 +75,11 @@
             color: white;
         }
     }
+
+    &.current {
+        .number {
+            background-color: var(--primary-dark);
+            color: white;
+        }
+    }
 }

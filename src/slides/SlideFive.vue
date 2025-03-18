@@ -5,7 +5,7 @@
     </strong>
     é o item em que são registrados os elementos suficientes para fundamentação da comprovação da ocorrência ou não de determinada situação descrita na constatação.5. Evidência: é o item em que são registrados os elementos suficientes para fundamentação da comprovação da ocorrência ou não de determinada situação descrita na constatação.
     <template v-slot:extra>
-      <img src="@/assets/pages/5_evidencia.png" alt="" />
+      <img class="img-fluid" src="@/assets/pages/5.png" alt="" />
     </template>
   </GirlA>
 </template>

@@ -6,7 +6,7 @@
     o tipo de técnica de amostragem utilizado; as formas de tabulação e
     tratamento dos dados.
     <template v-slot:extra>
-      <img src="@/assets/pages/3_metodologia.png" alt="" />
+      <img class="img-fluid" src="@/assets/pages/3.png" alt="" />
     </template>
   </GirlA>
 </template>
