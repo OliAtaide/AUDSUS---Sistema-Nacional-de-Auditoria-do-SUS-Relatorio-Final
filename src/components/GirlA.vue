@@ -3,7 +3,7 @@
     <div class="row" :class="'row-' + props.direction">
       <div class="col-3 d-flex align-items-start">
         <img
-          class="img-fluid mx-auto"
+          class="img-fluid mx-auto" :class="`img-${props.image}`"
           :src="require('@/assets/girl_' + props.image + '.png')"
           alt=""
         />

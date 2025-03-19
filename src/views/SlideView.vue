@@ -5,7 +5,6 @@ import SlideFive from "@/slides/SlideFive.vue";
 import SlideFour from "@/slides/SlideFour.vue";
 import SlideLast from "@/slides/SlideLast.vue";
 import SlideOne from "@/slides/SlideOne.vue";
-import SlideSeven from "@/slides/SlideSeven.vue";
 import SlideSix from "@/slides/SlideSix.vue";
 import SlideThree from "@/slides/SlideThree.vue";
 import SlideTwo from "@/slides/SlideTwo.vue";
@@ -21,7 +20,7 @@ const comp = ref(NotFound);
 const next = ref(false);
 const prev = ref(false);
 
-const slides = [SlideOne, SlideTwo, SlideThree, SlideFour, SlideFive, SlideSix, SlideSeven, SlideLast];
+const slides = [SlideOne, SlideTwo, SlideThree, SlideFour, SlideFive, SlideSix, SlideLast];
 
 const titles = [
   "Dados Básicos",

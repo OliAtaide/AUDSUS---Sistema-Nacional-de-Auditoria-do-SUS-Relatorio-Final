@@ -1,7 +1,7 @@
 <template>
   <div id="nav-buttons" class="p-0 d-flex justify-content-between">
     <router-link
-      :to="props.prev ? `${props.id - 1}` : '/'"
+      :to="props.prev ? `/${props.id - 1}` : '/'"
       class="btn border-primary"
       v-if="props.id != 0"
     >
@@ -9,7 +9,7 @@
       Voltar
     </router-link>
     <router-link
-      :to="props.next ? `${props.id + 1}` : '/end'"
+      :to="props.next ? `/${props.id + 1}` : '/end'"
       class="btn btn-primary ms-auto"
     >
       Próximo
@@ -20,5 +20,5 @@
 
 <script setup>
 import { defineProps } from "vue";
-const props = defineProps(["id", "prev", "next"]);
+const props = defineProps(["id", "prev", "next", "slug"]);
 </script>

@@ -1,9 +1,9 @@
 <template>
   <GirlA image="c" direction="right">
-    <strong>
-      4. Constatação:
-    </strong>
-    corresponde a afirmação elaborada com base nas evidências verificadas, observando a conformidade ou não conformidade, de acordo com os critérios preestabelecidos. Cada constatação recebe um número específico. Abaixo da fonte de evidência, fica o registro se a constatação é conforme ou não conforme.
+    <strong> 4. Recomendação: </strong>
+    neste item estão descritas as providências pertinentes para superar ou
+    minimizar a constatação de não conformidade, contemplando a fundamentação
+    legal. O propósito das recomendações é a melhoria do objeto auditado.
     <template v-slot:extra>
       <img class="img-fluid" src="@/assets/pages/4.png" alt="" />
     </template>

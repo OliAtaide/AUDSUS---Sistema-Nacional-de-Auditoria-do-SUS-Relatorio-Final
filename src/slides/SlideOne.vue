@@ -1,12 +1,12 @@
 <template>
-  <GirlA image="a" direction="left">
-    <strong> 1. Dados básicos: </strong> neste item estão registrados a finalidade da ação
-    de auditoria; o período que ocorreu cada fase da auditoria; quais foram as
-    unidades visitadas; o demandante da ação; o objeto e abrangência da
-    auditoria; e identificações dos dirigentes, com seu respectivo cargo e
-    período de exercício.
+  <GirlA image="b" direction="left">
+    <strong>1. Justificativa apresentada:</strong> item que contém a transcrição
+    da manifestação do auditado em função das constatações de não conformidades.
+    Nos casos em que o texto for muito grande, ou contiver documentos anexos, a
+    equipe faz uma síntese objetiva dos argumentos ou novos fatos, bem como
+    coloca o texto original como anexo, referenciando no corpo da justificativa.
     <template v-slot:extra>
-        <img  class="img-fluid" src="@/assets/pages/1.png" alt="">
+      <img class="img-fluid" src="@/assets/pages/1.png" alt="" />
     </template>
   </GirlA>
 </template>

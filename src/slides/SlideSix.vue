@@ -1,16 +1,10 @@
 <template>
-  <GirlA image="c" direction="left">
-    <strong>6. Fonte de evidência:</strong> neste item é registrado onde foram
-    obtidas as evidências. Ele é responsável pela materialidade da evidência e
-    da constatação. São exemplos de fontes de evidências: prontuário, extrato
-    bancário, notas fiscais, entrevista, pesquisa com usuário, visitas
-    realizadas nas unidades, Apacs, AIHs, Ata de Conselho de Saúde, portais de
-    sistema de informações do Ministério da Saúde, entre outros.
-    <template v-slot:extra> </template>
+  <GirlA image="a" direction="left">
+    <strong>6. Conclusão:</strong>  compreende um texto com um resumo objetivo de toda a situação encontrada, contemplando uma síntese das constatações e suas recomendações, a indicação de dificuldades enfrentadas pelos auditados e de suas iniciativas positivas para superá-las.
+    <template v-slot:extra>
+      <img class="img-fluid w-100" src="@/assets/pages/6.png" alt="" />
+    </template>
   </GirlA>
-  <div class="container w-75 mt-4">
-    <img class="img-fluid w-100" src="@/assets/pages/6.png" alt="" />
-  </div>
 </template>
 
 <script setup>

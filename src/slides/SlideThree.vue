@@ -1,10 +1,10 @@
 <template>
   <GirlA image="a" direction="left">
-    <strong>3. Metodologia:</strong> neste item são descritos os procedimentos e
-    técnicas adotadas para realização das fases analítica e operativa,
-    compreendendo os instrumentos utilizados; os papéis de trabalho utilizados;
-    o tipo de técnica de amostragem utilizado; as formas de tabulação e
-    tratamento dos dados.
+    <strong>3. Acatamento da justificativa:</strong> neste item fica o registro
+    se as justificativas foram acatadas total ou parcialmente, assim como o
+    registro da não apresentação de justificativas. No caso de não acatamento,
+    total ou parcial, e de não apresentação de justificativas são emitidas
+    recomendações.
     <template v-slot:extra>
       <img class="img-fluid" src="@/assets/pages/3.png" alt="" />
     </template>

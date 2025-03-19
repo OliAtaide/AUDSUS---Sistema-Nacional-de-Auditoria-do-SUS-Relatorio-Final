@@ -1,9 +1,9 @@
 <template>
   <GirlA image="a" direction="right">
-    <strong> 2. Introdução: </strong> neste item estão registrados a visão geral
-    do objeto auditado, contemplando a finalidade e o escopo da atividade de
-    auditoria; informações sobre a demanda e o demandante; o objetivo da
-    atividade e as questões de auditoria formuladas.
+    <strong>2. Análise da justificativa:</strong> item com o registro da análise
+    da equipe de auditoria, sustentada e consubstanciada em argumentos técnicos
+    e convincentes, acatando ou não as justificativas apresentadas. Em algumas
+    situações, a análise também poderá vir como anexo do relatório.
     <template v-slot:extra>
       <img class="img-fluid" src="@/assets/pages/2.png" alt="" />
     </template>

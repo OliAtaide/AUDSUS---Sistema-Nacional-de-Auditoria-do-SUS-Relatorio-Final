@@ -1,7 +1,7 @@
 <template>
   <div class="navbar header">
     <div class="container">
-      <a href="" class="navbar-brand">
+      <a href="/" class="navbar-brand">
         <img src="@/assets/logo.svg" alt="" />
       </a>
       <a class="ext" href="" target="_blank">
