@@ -8,6 +8,7 @@
     --primary-light: #e1f4fd;
     --primary-dark: #113154;
     --primary: #49a4e7;
+    --success: #178545;
     --secondary-dark: #0f506b;
 }
 
@@ -80,8 +81,8 @@
 
     &.active {
         .number {
-            border: 1px solid var(--primary);
-            background: var(--primary);
+            border: 1px solid var(--success);
+            background: var(--success);
             color: white;
         }
     }
