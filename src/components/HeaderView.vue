@@ -32,8 +32,8 @@
       <div class="row w-100">
         <div class="col">
           <span>
-            <strong> Aula 1: </strong>
-            Relatório Preliminar de auditoria
+            <strong> Aula 3: </strong>
+            Relatório Final de auditoria
           </span>
         </div>
         <div class="col">
