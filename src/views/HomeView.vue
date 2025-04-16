@@ -3,11 +3,12 @@
     <div class="card-body">
       <div class="home">
         <GirlA class="mb-4" image="b" direction="right">
-          Olá, cursista! Para nos auxiliar na estruturação dos achados da
-          auditoria, na redação do Relatório Preliminar e na revisão do
-          trabalho, por parte da supervisão técnica, nós elaboramos a
-          <strong>Matriz de Achados</strong>. Clique no botão abaixo para
-          visualizar o formato da tabela.
+          Olá, cursista! Estamos elaborando o Relatório Final. Já analisamos as
+          justificativas apresentadas. Vou explicar agora para você os
+          principais itens textuais que caracterizam o Relatório Final.
+          <br />
+          Primeiro, saiba que o Relatório Final contém na íntegra o Relatório
+          Preliminar, sendo acrescido dos seguintes itens:
         </GirlA>
       </div>
     </div>
