@@ -23,13 +23,12 @@ const prev = ref(false);
 const slides = [SlideOne, SlideTwo, SlideThree, SlideFour, SlideFive, SlideSix, SlideLast];
 
 const titles = [
-  "Dados Básicos",
-  "Introdução",
-  "Metodologia",
-  "Constatação",
-  "Evidência",
-  "Fonte de evidência",
-  "Responsável"
+  "Justificativa apresentada",
+  "Análise da justificativa",
+  "Acatamento da justificativa",
+  "Recomendação",
+  "Destinatário da recomendação",
+  "Conclusão",
 ]
 
 function getComp() {
@@ -72,7 +71,7 @@ watch(
     <div class="card-body">
       <ul class="nav">
         <li class="nav-item" v-for="i in slides.length - 1" :key="i">
-          <a class="nav-link" :class="i < $route.params.id ? 'active' : ( i == $route.params.id ? 'current' : '')" aria-current="page" :href=i>
+          <router-link :to="`${i}`" class="nav-link px-0" :class="i < $route.params.id ? 'active' : ( i == $route.params.id ? 'current' : '')" aria-current="page" >
             <div class="number">
               <i v-if="i < $route.params.id" class="bi bi-check"></i>
               <span v-else>
@@ -80,7 +79,7 @@ watch(
               </span>
             </div>
             {{ titles[i-1] }}
-          </a>
+          </router-link>
         </li>
       </ul>
       <div :if="isMounted.value" class="container main p-3">
